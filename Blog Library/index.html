@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modern Table Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(to right, #eef2f3, #d9e2ec);
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #333;
+        }
+
+        .table-container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 100px; 
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: #4f46e5;
+            color: white;
+        }
+
+        thead th {
+            padding: 14px;
+            font-size: 16px;
+            text-align: left;
+        }
+
+        tbody td {
+            padding: 14px;
+            font-size: 15px;
+            color: #333;
+        }
+
+        /* Alternate row color */
+        tbody tr:nth-child(even) {
+            background: #f3f6ff;
+        }
+
+        tbody tr:nth-child(odd) {
+            background: #ffffff;
+        }
+
+        /* Hover effect */
+        tbody tr:hover {
+            background: #e0e7ff;
+            transition: 0.3s;
+        }
+
+        /* Clickable link style */
+        a {
+            color: #4f46e5;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Blog Library</h1>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Titles</th>
+                    <th>Open Page</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Lucky Colors, Numbers, and Days for Each Zodiac Sign (2025)</td>
+                    <td><a href="web_page_lucky_num.html">Click here</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>The Science of Oobleck: Exploring Non-Newtonian Fluids in Your Kitchen</td>
+                    <td><a href="science_of_Oobleck.html">Click here</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>How to Build a Simple Water Rocket That Flies High</td>
+                    <td><a href="water_rocket.html">Click here</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>How to Build a Simple Water Filter with Sand, Charcoal, and Gravel</td>
+                    <td><a href="build_a_simple_water_filter.html">Click here</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Growing Crystals at Home: A Step-by-Step Guide</td>
+                    <td><a href="growing_crystals_at_home.html">Click here</a></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>How to Make a Rainbow in a Glass (Easy Science Experiment)</td>
+                    <td><a href="make_rainbow_in_a_glass.html">Click here</a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>How to Make a Solar Oven at Home with a Pizza Box</td>
+                    <td><a href="make_solar_oven_at_home.html">Click here</a></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Solar Science: How to Build a DIY Solar Oven and Cook with Sunlight</td>
+                    <td><a href="solar_science.html">Click here</a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>How to Make a Homemade Volcano That Really Erupts</td>
+                    <td><a href="web_page_volcano.html">Click here</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
